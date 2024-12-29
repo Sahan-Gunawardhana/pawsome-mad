@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pawsome_v2/utils/theme/custom_themes/appbar_theme.dart';
+import 'package:pawsome_v2/utils/theme/custom_themes/bottom_sheet_theme.dart';
+import 'package:pawsome_v2/utils/theme/custom_themes/chip_theme.dart';
 import 'package:pawsome_v2/utils/theme/custom_themes/elevated_button_theme.dart';
+import 'package:pawsome_v2/utils/theme/custom_themes/outlined_button_theme.dart';
+import 'package:pawsome_v2/utils/theme/custom_themes/text_field_theme.dart';
 
 class AppTheme {
   AppTheme._();
@@ -46,7 +51,12 @@ class AppTheme {
     primaryColor: Colors.blue,
     // Primary color for light theme
     scaffoldBackgroundColor: Colors.white, // Light theme background color
-    elevatedButtonTheme: CusElevatedButtonTheme.lightElevatedButtonTheme
+    elevatedButtonTheme: CusElevatedButtonTheme.lightElevatedButtonTheme,
+    appBarTheme: CusAppBarTheme.lightAppBarTheme,
+    bottomSheetTheme: CusBottomSheetTheme.lightBottomSheetTheme,
+    outlinedButtonTheme: CusOutlinedButtonTheme.lightOutlinedButtonTheme,
+    inputDecorationTheme: CusTextFormFieldTheme.lightInputDecorationTheme,
+      chipTheme: CusChipTheme.lightChipThemeData
   );
 
   static ThemeData darkTheme = ThemeData(
@@ -90,6 +100,10 @@ class AppTheme {
     // Primary color for dark theme
     scaffoldBackgroundColor: Colors.black,
     elevatedButtonTheme: CusElevatedButtonTheme.darkElevatedButtonTheme,
-    // Dark theme background color
+    appBarTheme: CusAppBarTheme.darkAppBarTheme,
+    bottomSheetTheme: CusBottomSheetTheme.darkBottomSheetTheme,
+    outlinedButtonTheme: CusOutlinedButtonTheme.darkOutlinedButtonTheme,
+    inputDecorationTheme: CusTextFormFieldTheme.darkInputDecorationTheme,
+    chipTheme: CusChipTheme.darkChipThemeData
   );
 }
