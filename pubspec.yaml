@@ -19,14 +19,24 @@ dependencies:
   cupertino_icons: ^1.0.8
   iconsax: ^0.0.8
 
+
+
   #state management
   get: ^4.6.5
+  get_storage: ^2.1.1
   google_fonts: ^6.2.1
   permission_handler: ^11.3.1
   sensors_plus: ^6.1.1
   shared_preferences: ^2.3.4
   connectivity_plus: ^6.1.1
-
+  intl: ^0.20.1
+  url_launcher: ^6.3.1
+  logger: ^2.5.0
+  http: ^1.2.2
+  battery_plus: ^6.2.1
+  camera: ^0.11.0+2
+  geolocator: ^13.0.2
+  pedometer: ^4.0.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
