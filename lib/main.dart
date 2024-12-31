@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pawsome_v2/utils/app.dart';
+import 'package:pawsome_v2/app.dart';
 import 'package:pawsome_v2/utils/theme/theme.dart';
 
 //entry point

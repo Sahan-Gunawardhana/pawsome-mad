@@ -2,7 +2,7 @@ class AppString {
   // Login
   static const String appName = "PawsomePetCare";
   static const String landingTitle1 = "Discover the best for your furry friends at PawSome!";
-  static const String landingTitle2 = "Find and shop for the best pet supplies from the comfort of your home";
+  static const String landingTitle2 = "Find and shop for the best pet supplies \n from the comfort of your home";
   static const String landingButtonText = "Let's Get Started";
   static const String landingRedirectText = "Already have an account?";
   static const String landingRedirectButtonText = "Log In";

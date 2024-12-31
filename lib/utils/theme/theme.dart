@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pawsome_v2/utils/constants/colors.dart';
 import 'package:pawsome_v2/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:pawsome_v2/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:pawsome_v2/utils/theme/custom_themes/chip_theme.dart';
@@ -23,15 +24,15 @@ class AppTheme {
       ),
 
       // Title Text Styles
-      titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black,
+      titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.w400, color: Colors.black,
       ),
-      titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: Colors.black,
+      titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, color: Colors.black,
       ),
-      titleSmall: TextStyle(fontSize: 16, fontWeight: FontWeight.w400, color: Colors.black,
+      titleSmall: TextStyle(fontSize: 16, fontWeight: FontWeight.w200, color: Colors.black,
       ),
 
       // Body Text Styles
-      bodyLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.black,
+      bodyLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.black,
       ),
       bodyMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.black,
       ),
@@ -48,9 +49,9 @@ class AppTheme {
     ),
     brightness: Brightness.light,
     // Set brightness for light mode
-    primaryColor: Colors.blue,
+    primaryColor: AppColors.primaryContainerLight,
     // Primary color for light theme
-    scaffoldBackgroundColor: Colors.white, // Light theme background color
+    scaffoldBackgroundColor: AppColors.backgroundLight, // Light theme background color
     elevatedButtonTheme: CusElevatedButtonTheme.lightElevatedButtonTheme,
     appBarTheme: CusAppBarTheme.lightAppBarTheme,
     bottomSheetTheme: CusBottomSheetTheme.lightBottomSheetTheme,
@@ -71,7 +72,7 @@ class AppTheme {
       ),
 
       // Title Text Styles
-      titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white,
+      titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.w400, color: Colors.white,
       ),
       titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: Colors.white,
       ),
@@ -96,9 +97,9 @@ class AppTheme {
     ),
     brightness: Brightness.dark,
     // Set brightness for dark mode
-    primaryColor: Colors.blue,
+    primaryColor: AppColors.primaryContainerLight,
     // Primary color for dark theme
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: AppColors.backgroundDark,
     elevatedButtonTheme: CusElevatedButtonTheme.darkElevatedButtonTheme,
     appBarTheme: CusAppBarTheme.darkAppBarTheme,
     bottomSheetTheme: CusBottomSheetTheme.darkBottomSheetTheme,

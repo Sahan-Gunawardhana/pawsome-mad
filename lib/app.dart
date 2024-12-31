@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pawsome_v2/utils/theme/custom_themes/appbar_theme.dart';
-import 'theme/theme.dart';
+import 'package:get/get.dart';
+import 'package:pawsome_v2/features/authentication/screens/onboarding.dart';
+import 'utils/theme/theme.dart';
 
 
 
@@ -9,10 +10,11 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
+      home: const OnBoardingScreen(),
     );
   }
 }
