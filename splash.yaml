@@ -6,3 +6,12 @@ flutter_native_splash:
   android: true
   ios: true
 
+  android_12:
+    color: '#F7FBF1'
+    color_dark: '#10140F'
+    image: assets/logos/Screenshot_2024-08-04_at_11.46.00-removebg.png
+    image_dark: assets/logos/Screenshot_2024-08-04_at_11.46.00-removebg.png
+    android_gravity: fill
+    fullscreen: true
+
+  web: false

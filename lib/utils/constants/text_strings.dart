@@ -6,14 +6,19 @@ class AppString {
   static const String landingButtonText = "Let's Get Started";
   static const String landingRedirectText = "Already have an account?";
   static const String landingRedirectButtonText = "Log In";
-  static const String loginTitle = "Log In";
+  static const String loginTitle = "Welcome Back!";
+  static const String loginSubTitle = "Login Using Your Email and Password";
+  static const String loginSubTitle2 = "Log In";
   static const String loginNameTextField = "JohnDoe";
   static const String loginPasswordTextField = "Password";
   static const String loginButtonText = "Log In";
   static const String loginRedirectToSignUp = "Don't have an account?";
   static const String loginRedirectToSignClickText = " Register";
-  static const String loginUserNameDesc = "User name";
+  static const String forgtPassword = "Forogt Password?";
+  static const String rememberMe = "Remember Me";
+  static const String loginEmail = "E-mail";
   static const String loginPasswordDesc = "Password";
+  static const String altLogins = "Or Sign in With";
 
 // Signup
   static const String signupTitle = "Sign Up";

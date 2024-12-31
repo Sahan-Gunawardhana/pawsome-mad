@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:pawsome_v2/utils/constants/colors.dart';
 
 class CusTextFormFieldTheme{
   CusTextFormFieldTheme._();
@@ -27,18 +28,18 @@ class CusTextFormFieldTheme{
     floatingLabelStyle: GoogleFonts.roboto().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.w500,
-      color: Colors.blue,
+      color: AppColors.onBackgroundLight,
     ),
     border: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black.withOpacity(0.12), width: 1.0),
+      borderSide: BorderSide(color: Colors.black, width: 1.0),
       borderRadius: BorderRadius.circular(8.0),
     ),
     enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black.withOpacity(0.12), width: 1.0),
+      borderSide: BorderSide(color: Colors.black, width: 1.0),
       borderRadius: BorderRadius.circular(8.0),
     ),
     focusedBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.blue, width: 2.0),
+      borderSide: BorderSide(color: Colors.black, width: 2.0),
       borderRadius: BorderRadius.circular(8.0),
     ),
     errorBorder: OutlineInputBorder(
@@ -54,17 +55,17 @@ class CusTextFormFieldTheme{
   // InputDecorationTheme for dark mode adhering to Android guidelines
   static InputDecorationTheme darkInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 2,
-    prefixIconColor: Colors.black,
-    suffixIconColor: Colors.black,
+    prefixIconColor: Colors.white,
+    suffixIconColor: Colors.white,
     labelStyle: GoogleFonts.roboto().copyWith(
       fontSize: 14,
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: Colors.white,
     ),
     hintStyle: GoogleFonts.roboto().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.normal,
-      color: Colors.grey,
+      color: Colors.white,
     ),
     errorStyle: GoogleFonts.roboto().copyWith(
       fontSize: 12,
@@ -74,18 +75,18 @@ class CusTextFormFieldTheme{
     floatingLabelStyle: GoogleFonts.roboto().copyWith(
       fontSize: 16,
       fontWeight: FontWeight.w500,
-      color: Colors.blue,
+      color: Colors.white,
     ),
     border: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black.withOpacity(0.12), width: 1.0),
+      borderSide: BorderSide(color: Colors.white, width: 1.0),
       borderRadius: BorderRadius.circular(8.0),
     ),
     enabledBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.black.withOpacity(0.12), width: 1.0),
+      borderSide: BorderSide(color: Colors.white, width: 1.0),
       borderRadius: BorderRadius.circular(8.0),
     ),
     focusedBorder: OutlineInputBorder(
-      borderSide: BorderSide(color: Colors.blue, width: 2.0),
+      borderSide: BorderSide(color: Colors.white, width: 2.0),
       borderRadius: BorderRadius.circular(8.0),
     ),
     errorBorder: OutlineInputBorder(

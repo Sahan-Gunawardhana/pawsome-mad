@@ -18,7 +18,7 @@ class AppTheme {
       // Headline Text Styles
       headlineLarge: TextStyle(fontSize: 34, fontWeight: FontWeight.bold, color: Colors.black,
       ),
-      headlineMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.w600, color: Colors.black,
+      headlineMedium: TextStyle(fontSize: 24, fontWeight: FontWeight.w400, color: Colors.black,
       ),
       headlineSmall: TextStyle(fontSize: 22, fontWeight: FontWeight.w500, color: Colors.black,
       ),
@@ -66,21 +66,21 @@ class AppTheme {
       // Headline Text Styles
       headlineLarge: TextStyle(fontSize: 34, fontWeight: FontWeight.bold, color: Colors.white,
       ),
-      headlineMedium: TextStyle(fontSize: 28, fontWeight: FontWeight.w600, color: Colors.white,
-      ),
+        headlineMedium: TextStyle(fontSize: 24, fontWeight: FontWeight.w400, color: Colors.white,
+        ),
       headlineSmall: TextStyle(fontSize: 22, fontWeight: FontWeight.w500, color: Colors.white,
       ),
 
       // Title Text Styles
       titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.w400, color: Colors.white,
       ),
-      titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w500, color: Colors.white,
+      titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, color: Colors.white,
       ),
       titleSmall: TextStyle(fontSize: 16, fontWeight: FontWeight.w400, color: Colors.white,
       ),
 
       // Body Text Styles
-      bodyLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.normal, color: Colors.white,
+      bodyLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.white,
       ),
       bodyMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.white,
       ),
