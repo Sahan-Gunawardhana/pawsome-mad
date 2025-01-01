@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:pawsome_v2/features/authentication/screens/password_config/forgot_password.dart';
 import 'package:pawsome_v2/features/authentication/screens/signup/signup.dart';
 
 import '../../../../../utils/constants/colors.dart';
@@ -23,7 +24,7 @@ class LoginForm extends StatelessWidget {
               prefixIcon: Icon(Iconsax.sms), labelText: AppString.loginEmail),
         ),
         SizedBox(
-          height: 10,
+          height: 24,
         ),
         TextFormField(
           decoration: InputDecoration(
@@ -47,7 +48,6 @@ class LoginForm extends StatelessWidget {
                   child: Checkbox(
                     value: true,
                     onChanged: (value) {},
-
                     activeColor: Colors.green,
                     checkColor: Colors.white,
                   ),
@@ -58,7 +58,7 @@ class LoginForm extends StatelessWidget {
             ),
             //forgot password
             TextButton(
-              onPressed: () {},
+              onPressed: () => Get.to(() => const ForgotPassword()),
               child: Text(
                 AppString.forgtPassword,
                 style: Theme.of(context).textTheme.bodySmall,

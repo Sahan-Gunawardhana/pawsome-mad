@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pawsome_v2/common/widgets/onboarding_gradient.dart';
+import 'package:pawsome_v2/common/widgets/onboarding/onboarding_gradient.dart';
 import 'package:pawsome_v2/features/authentication/controllers/onboarding_controller.dart';
 import 'package:pawsome_v2/utils/constants/image_strings.dart';
 import 'package:pawsome_v2/utils/constants/text_strings.dart';

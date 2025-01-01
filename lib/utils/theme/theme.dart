@@ -20,11 +20,11 @@ class AppTheme {
       ),
       headlineMedium: TextStyle(fontSize: 24, fontWeight: FontWeight.w400, color: Colors.black,
       ),
-      headlineSmall: TextStyle(fontSize: 22, fontWeight: FontWeight.w500, color: Colors.black,
+      headlineSmall: TextStyle(fontSize: 24, fontWeight: FontWeight.w500, color: Colors.black,
       ),
 
       // Title Text Styles
-      titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.w400, color: Colors.black,
+      titleLarge: TextStyle(fontSize: 20, fontWeight: FontWeight.w300, color: Colors.black,
       ),
       titleMedium: TextStyle(fontSize: 18, fontWeight: FontWeight.w300, color: Colors.black,
       ),
@@ -34,7 +34,7 @@ class AppTheme {
       // Body Text Styles
       bodyLarge: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.black,
       ),
-      bodyMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.black,
+      bodyMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.normal, color: Colors.black.withOpacity(0.7),
       ),
       bodySmall: TextStyle(fontSize: 14, fontWeight: FontWeight.normal, color: Colors.black,
       ),

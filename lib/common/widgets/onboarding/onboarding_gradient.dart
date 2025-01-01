@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/constants/colors.dart';
-import '../../utils/constants/image_strings.dart';
-import '../../utils/helpers/helper_method.dart';
+import '../../../utils/constants/colors.dart';
+import '../../../utils/constants/image_strings.dart';
+import '../../../utils/helpers/helper_method.dart';
 
 class TransparentImage extends StatelessWidget {
   const TransparentImage({

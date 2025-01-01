@@ -31,6 +31,10 @@ class AppString {
   static const String signupUserNameTextField = "Username";
   static const String signupPasswordTextField = "Password";
   static const String signupEmail = "E-mail";
+  static const String confirmEmail = "Verify Your E-mail Address!";
+  static const String resend = "Resend E-mail";
+  static const String successOne = "Account Created Successfully!";
+  static const String successTwo = "Your account has been successfully created! Verify your email to start exploring exclusive deals and services for your pet. Let the adventures begin!";
   // static const String signUpT
   static const String signupTele = "Telephone";
   static const String signupDob = "Date of birth";
@@ -41,8 +45,9 @@ class AppString {
   static const String signupUserNameDesc = "User name";
   static const String signupPasswordDesc = "Password";
   static const String signupTeleDesc = "Password";
+  static const String emailContinue = "Continue";
   static const String signupEmailDesc = "E-mail";
-
+  static const String verifyEmailDesc = "Your account is successfully created! Verify your email to begin shopping and embark on an unforgettable pet adventure.";
 // Home Page
   static const String featured = "Today's Picks";
   static const String homeSearch = "Search";
@@ -117,4 +122,16 @@ class AppString {
   static const String waterDispenser = "Automatic Water Dispenser";
   static const String waterDispenserPrice = "\$25.99";
   static const String waterDispenserDesc = "The Automatic Water Dispenser ensures your dog always has access to fresh, clean water. Its large capacity and self-filling system make it perfect for busy pet owners, reducing the need for static constant refills and keeping your pet hydrated throughout the day.";
+
+
+
+  // forget password
+  static const String forgetPasswordTitle = "Forgot Password?";
+  static const String forgetPasswordEmailSent = "Password Reset E-mail Sent";
+  static const String forgetPasswordSubTitle = "Forgot your password? No worries! Let’s fetch a new one so you can get back to caring for your furry friends";
+  static const String forgetPasswordSubmit = "Submit";
+
+  static const String resetTitle = "Password Reset Link Sent";
+  static const String resetSubTitle = "Please check your inbox for a link to reset your password. If you don’t see it, be sure to check your spam folder.";
+  static const String done = "Done";
 }
