@@ -40,7 +40,7 @@ class AppTheme {
       ),
 
       // Label Text Styles
-      labelLarge: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.black,
+      labelLarge: TextStyle(fontSize: 14, fontWeight: FontWeight.normal, color: Colors.black,
       ),
       labelMedium: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.black,
       ),
@@ -88,9 +88,9 @@ class AppTheme {
       ),
 
       // Label Text Styles
-      labelLarge: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.white,
+      labelLarge: TextStyle(fontSize: 14, fontWeight: FontWeight.normal, color: Colors.white,
       ),
-      labelMedium: TextStyle(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white,
+      labelMedium: TextStyle(fontSize: 12, fontWeight: FontWeight.w300, color: Colors.white,
       ),
       labelSmall: TextStyle(fontSize: 10, fontWeight: FontWeight.w400, color: Colors.white,
       ),

@@ -18,17 +18,23 @@ class AppString {
   static const String rememberMe = "Remember Me";
   static const String loginEmail = "E-mail";
   static const String loginPasswordDesc = "Password";
-  static const String altLogins = "Or Sign in With";
-
+  static const String altLogins = "Or Sign In With";
+  static const String altLogins2 = "Or Sign Up With";
 // Signup
-  static const String signupTitle = "Sign Up";
-  static const String signupNameTextField = "Name";
+  static const String signupTitle = "Let's Create Your Account";
+  static const String signupfNameTextField = "First Name";
+  static const String signuplNameTextField = "Last Name";
+  static const String agreeTo = "I agree to";
+  static const String privaryPolicy = "Privacy Policy";
+  static const String tOs = "Terms of Use";
+  static const String and = "and";
   static const String signupUserNameTextField = "Username";
   static const String signupPasswordTextField = "Password";
   static const String signupEmail = "E-mail";
+  // static const String signUpT
   static const String signupTele = "Telephone";
   static const String signupDob = "Date of birth";
-  static const String signupButtonText = "Sign Up";
+  static const String signupButtonText = "Create Account";
   static const String signupRedirectToSignUp = "Already have an account?";
   static const String signupRedirectToSignClickText = "Log In";
   static const String signupNameDesc = "name";

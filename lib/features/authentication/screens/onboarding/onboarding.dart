@@ -38,7 +38,7 @@ class OnBoardingScreen extends StatelessWidget {
 
                   },
                   child: Text(
-                    AppString.landingButtonText
+                    AppString.landingButtonText,
                   )
               ),
               SizedBox(height: 10,),
@@ -46,7 +46,12 @@ class OnBoardingScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(AppString.landingRedirectText, style: Theme.of(context).textTheme.bodySmall, textAlign: TextAlign.center,),
               ),
-              OutlinedButton(onPressed: () {}, child: Text("Login")
+              OutlinedButton(onPressed: () {
+                OnBoardingController.instance.nextPage();
+              }, child: Text(
+                AppString.loginButtonText,
+                style: Theme.of(context).textTheme.labelLarge
+              )
               ),
             ],
           )
