@@ -19,4 +19,15 @@ class AppImages {
   static const String cat6 = "assets/icons/training.png";
   static const String cat7 = "assets/icons/grooming.png";
   static const String cat8 = "assets/icons/aquatic.png";
+  static const String deals1 = "assets/images/deals1.png";
+  static const String deals2 = "assets/images/deals2.jpeg";
+  static const String deals3 = "assets/images/deals3.jpg";
+
+
+  static const String product1 = "assets/images/product1.jpg";
+  static const String product2 = "assets/images/product2.jpg";
+  static const String product3 = "assets/images/product3.jpg";
+  static const String product4 = "assets/images/product4.jpg";
+  static const String product5 = "assets/images/product5.jpg";
+  static const String product6 = "assets/images/product6.jpg";
 }
