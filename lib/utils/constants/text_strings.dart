@@ -134,4 +134,9 @@ class AppString {
   static const String resetTitle = "Password Reset Link Sent";
   static const String resetSubTitle = "Please check your inbox for a link to reset your password. If you don’t see it, be sure to check your spam folder.";
   static const String done = "Done";
+
+  static const String homeAppbarTitle = "Great day to treat your pet!";
+  static const String homeAppbarSubTitle = "Jane Smith";
 }
+
+

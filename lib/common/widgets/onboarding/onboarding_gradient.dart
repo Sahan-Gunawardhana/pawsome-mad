@@ -22,11 +22,11 @@ class TransparentImage extends StatelessWidget {
           image: AssetImage(AppImages.loginImage),
           fit: BoxFit.cover,
           width: double.infinity,
-          height: AppHelperMethods.screenHeight() * heightPercentage,
+          height: AppHelperMethods.screenHeight(context) * heightPercentage,
         ),
         Container(
           width: double.infinity,
-          height: AppHelperMethods.screenHeight() * heightPercentage,
+          height: AppHelperMethods.screenHeight(context) * heightPercentage,
           decoration: BoxDecoration(
               gradient: LinearGradient(
                 begin: Alignment(0, -1),

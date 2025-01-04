@@ -28,7 +28,7 @@ class VerifyEmailScreen extends StatelessWidget {
               //Image
               Image(
                 image: AssetImage(AppImages.emailVerification),
-                width: AppHelperMethods.screenWidth() * 0.7,
+                width: AppHelperMethods.screenWidth(context) * 0.7,
               ),
               SizedBox(
                 height: 24,
@@ -62,12 +62,15 @@ class VerifyEmailScreen extends StatelessWidget {
                   width: double.infinity,
                   child: ElevatedButton(
                       onPressed: () => Get.to(() => SuccessScreen(
-                        //success screen and the parameters for the requirements
+                            //success screen and the parameters for the requirements
                             imageTitle: AppImages.successScreen,
                             title: AppString.successOne,
                             subtitle: AppString.successTwo,
                             onPressed: () => Get.to(() => const LoginScreen()),
                           )),
+                      style: ElevatedButton.styleFrom(
+                        elevation: 6, // Set desired elevation here
+                      ),
                       child: const Text(AppString.emailContinue))),
               SizedBox(
                 height: 24,

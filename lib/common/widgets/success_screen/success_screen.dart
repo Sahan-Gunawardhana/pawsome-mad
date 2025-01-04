@@ -25,7 +25,7 @@ class SuccessScreen extends StatelessWidget {
             children: [
               Image(
                 image: AssetImage(imageTitle),
-                width: AppHelperMethods.screenWidth() * 0.7,
+                width: AppHelperMethods.screenWidth(context) * 0.7,
               ),
               SizedBox(
                 height: 24,

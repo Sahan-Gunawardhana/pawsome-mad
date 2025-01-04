@@ -7,11 +7,11 @@ class AppHelperMethods{
     return MediaQuery.of(Get.context!).size;
   }
 
-  static double screenHeight(){
+  static double screenHeight(BuildContext context){
     return MediaQuery.of(Get.context!).size.height;
   }
 
-  static double screenWidth(){
+  static double screenWidth(BuildContext context){
     return MediaQuery.of(Get.context!).size.width;
   }
   static bool isDarkMode(BuildContext context){

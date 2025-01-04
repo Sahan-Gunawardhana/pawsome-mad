@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pawsome_v2/app.dart';
-import 'package:pawsome_v2/utils/theme/theme.dart';
 
 //entry point
 void main() {
@@ -11,4 +10,3 @@ void main() {
   //TODO: Firebase
   //TODO: Firebase auth
 }
-

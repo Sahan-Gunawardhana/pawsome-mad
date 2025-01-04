@@ -68,7 +68,7 @@ class AppTheme {
       ),
         headlineMedium: TextStyle(fontSize: 24, fontWeight: FontWeight.w400, color: Colors.white,
         ),
-      headlineSmall: TextStyle(fontSize: 22, fontWeight: FontWeight.w500, color: Colors.white,
+      headlineSmall: TextStyle(fontSize: 22, fontWeight: FontWeight.w300, color: Colors.white,
       ),
 
       // Title Text Styles

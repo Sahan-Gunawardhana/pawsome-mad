@@ -4,7 +4,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:pawsome_v2/features/authentication/screens/password_config/forgot_password.dart';
 import 'package:pawsome_v2/features/authentication/screens/signup/signup.dart';
-
+import 'package:pawsome_v2/navigation_menu.dart';
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/image_strings.dart';
 import '../../../../../utils/constants/text_strings.dart';
@@ -72,7 +72,7 @@ class LoginForm extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: ElevatedButton(
-            onPressed: () {},
+            onPressed: () => Get.to(() => const NavigationMenu()),
             child: Text(AppString.loginButtonText),
           ),
         ),

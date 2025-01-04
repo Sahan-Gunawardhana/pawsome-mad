@@ -24,7 +24,7 @@ class ResetPassword extends StatelessWidget {
           children: [
             Image(
               image: AssetImage(AppImages.resetEmailSent),
-              width: AppHelperMethods.screenWidth() * 0.7,
+              width: AppHelperMethods.screenWidth(context) * 0.7,
             ),
             SizedBox(
               height: 24,

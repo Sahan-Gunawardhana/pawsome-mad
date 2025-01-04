@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pawsome_v2/features/authentication/screens/login/widgets/login_form.dart';
 import 'package:pawsome_v2/utils/constants/text_strings.dart';
-
 import '../../../../common/widgets/onboarding/onboarding_gradient.dart';
 import '../../../../utils/constants/image_strings.dart';
 import '../../../../utils/helpers/helper_method.dart';
