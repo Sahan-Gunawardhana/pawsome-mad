@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pawsome_v2/common/widgets/images/rounded_image.dart';
+import 'package:pawsome_v2/common/widgets/products/product_cart/product_price_text.dart';
 import 'package:pawsome_v2/common/widgets/shapes/containers/circular_shape.dart';
 import 'package:pawsome_v2/common/widgets/texts/product_title.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';
@@ -75,12 +76,7 @@ class ProductCardVertical extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        '\$105.5',
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
+                      ProductPriceText(price: "55.00"),
                       Padding(
                         padding: const EdgeInsets.only(right: 8),
                         child: Container(

@@ -6,6 +6,7 @@ import 'package:pawsome_v2/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:pawsome_v2/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:pawsome_v2/utils/constants/image_strings.dart';
 
+import '../../../../common/widgets/layouts/grid_layout.dart';
 import '../../../../common/widgets/shapes/containers/primary_header.dart';
 import '../../../../common/widgets/texts/section_heading.dart';
 
@@ -65,17 +66,7 @@ class HomeScreen extends StatelessWidget {
                 SizedBox(
                   height: 24,
                 ),
-                GridView.builder(
-                    itemCount: 4,
-                    shrinkWrap: true,
-                    padding: EdgeInsets.zero,
-                    physics: NeverScrollableScrollPhysics(),
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                        crossAxisCount: 2,
-                        mainAxisSpacing: 16,
-                        mainAxisExtent: 288,
-                        crossAxisSpacing: 16),
-                    itemBuilder: (_, index) => ProductCardVertical()),
+                AppGridLayout(itemCount: 4, itemBuilder: (_, index) => const ProductCardVertical(),),
               ],
             ),
             //products
