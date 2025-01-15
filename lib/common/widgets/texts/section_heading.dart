@@ -16,10 +16,12 @@ class SectionHeading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
           title,
-          style: Theme.of(context).textTheme.headlineMedium!.copyWith(color: Colors.black),
+          style: Theme.of(context).textTheme.titleLarge!.copyWith(color: Colors.black),
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
         ),

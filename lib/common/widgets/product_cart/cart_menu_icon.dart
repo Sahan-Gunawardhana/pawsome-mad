@@ -16,7 +16,7 @@ class CartCounter extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        IconButton(onPressed: onPressed, icon: Icon(Icons.shopping_bag_outlined)),
+        IconButton(onPressed: onPressed, icon: Icon(Icons.shopping_bag_outlined, color: iconColor,)),
         Positioned(
           right: 0,
           child: Container(

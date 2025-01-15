@@ -72,30 +72,35 @@ class ProductCardVertical extends StatelessWidget {
                       )
                     ],
                   ),
-                  // Spacer(),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      ProductPriceText(price: "55.00"),
-                      Padding(
-                        padding: const EdgeInsets.only(right: 8),
-                        child: Container(
-                          decoration: BoxDecoration(
-                              color: AppColors.primaryContainerLight,
-                              borderRadius: BorderRadius.circular(8)),
-                          child: SizedBox(
-                              width: 32 * 1.2,
-                              height: 32 * 1.2,
-                              child: Center(
-                                  child: Icon(Icons.add,
-                                      color: AppColors.onPrimaryContainerLight))),
-                        ),
-                      )
-                    ],
-                  )
                 ],
               ),
             ),
+            Spacer(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left:8),
+                  child: ProductPriceText(price: "55.00"),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(right: 8),
+                  child: Container(
+                    decoration: BoxDecoration(
+                        color: AppColors.primaryContainerLight,
+                        borderRadius: BorderRadius.circular(8)),
+                    child: SizedBox(
+                        width: 32 * 1.2,
+                        height: 32 * 1.2,
+                        child: Center(
+                            child: Icon(Icons.add,
+                                color:
+                                AppColors.onPrimaryContainerLight))),
+                  ),
+                )
+              ],
+            )
+
           ],
         ),
       ),
