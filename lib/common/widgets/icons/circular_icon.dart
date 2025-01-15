@@ -7,6 +7,7 @@ class CircularIcon extends StatelessWidget {
     super.key,
     this.width,
     this.height,
+    this.padding,
     this.size = 24,
     required this.icon,
     this.color,
@@ -19,12 +20,14 @@ class CircularIcon extends StatelessWidget {
   final Color? color;
   final Color? backgroundColor;
   final VoidCallback? onPressed;
+  final EdgeInsets? padding;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       width: width,
       height: height,
+      padding: padding,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(100),
           color: backgroundColor != null ? backgroundColor! : AppHelperMethods

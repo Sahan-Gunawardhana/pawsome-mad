@@ -16,7 +16,7 @@ class WishlistScreen extends StatelessWidget {
       appBar: CustomAppBar(
         title: Text(
           "Favourites",
-          style: Theme.of(context).textTheme.headlineMedium,
+          style: Theme.of(context).textTheme.headlineSmall,
         ),
         actions: [
           CircularIcon(
@@ -32,8 +32,8 @@ class WishlistScreen extends StatelessWidget {
           child: Column(
             children: [
               AppGridLayout(
-                  itemCount: 4,
-                  itemBuilder: (_, indext) => const ProductCardVertical())
+                  itemCount: 8,
+                  itemBuilder: (_, index) => const ProductCardVertical())
             ],
           ),
         ),

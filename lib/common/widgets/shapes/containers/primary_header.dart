@@ -17,13 +17,10 @@ class PrimaryHeader extends StatelessWidget {
       child: Container(
         color: AppColors.primaryContainerLight,
         padding: const EdgeInsets.all(0),
-        child: SizedBox(
-          height: 400,
-          child: Stack(
-            children: [
-              child
-            ],
-          ),
+        child: Stack(
+          children: [
+            child
+          ],
         ),
       ),
     );

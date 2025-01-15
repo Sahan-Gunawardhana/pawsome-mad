@@ -40,6 +40,7 @@ class HomeScreen extends StatelessWidget {
                       SectionHeading(
                         title: 'Popular Categories',
                         showActionButton: false,
+                        darkMode: false,
                       ),
                       SizedBox(
                         height: 16,
@@ -47,7 +48,8 @@ class HomeScreen extends StatelessWidget {
                       AppHomeCategories(),
                     ],
                   ),
-                )
+                ),
+                const SizedBox(height: 32,)
               ],
             ),
           ),
@@ -66,8 +68,7 @@ class HomeScreen extends StatelessWidget {
                 SizedBox(
                   height: 24,
                 ),
-                DefaultTextStyle(style: TextStyle(color: Colors.black),
-                child: SectionHeading(title: "Popular Products", onPressed: () {},)),
+                SectionHeading(title: "Popular Products", onPressed: () {},),
                 AppGridLayout(itemCount: 8, itemBuilder: (_, index) => const ProductCardVertical(),),
               ],
             ),
