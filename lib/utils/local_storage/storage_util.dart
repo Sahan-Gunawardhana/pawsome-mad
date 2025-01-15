@@ -1,5 +1,4 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:get_storage/get_storage.dart';
 
 //TODO: if we can make it as a modular function for now lets put it in each class
 

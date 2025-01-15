@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:pawsome_v2/features/authentication/screens/password_config/forgot_password.dart';
 import 'package:pawsome_v2/features/authentication/screens/signup/signup.dart';

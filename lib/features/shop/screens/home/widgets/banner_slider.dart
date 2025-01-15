@@ -6,7 +6,6 @@ import 'package:pawsome_v2/features/shop/models/home_controller.dart';
 import '../../../../../common/widgets/images/rounded_image.dart';
 import '../../../../../common/widgets/shapes/containers/circular_shape.dart';
 import '../../../../../utils/constants/colors.dart';
-import '../../../../../utils/constants/image_strings.dart';
 
 class BannerSlider extends StatelessWidget {
   const BannerSlider({

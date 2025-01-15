@@ -66,7 +66,8 @@ class HomeScreen extends StatelessWidget {
                 SizedBox(
                   height: 24,
                 ),
-                SectionHeading(title: "Popular Products", onPressed: () {},),
+                DefaultTextStyle(style: TextStyle(color: Colors.black),
+                child: SectionHeading(title: "Popular Products", onPressed: () {},)),
                 AppGridLayout(itemCount: 8, itemBuilder: (_, index) => const ProductCardVertical(),),
               ],
             ),

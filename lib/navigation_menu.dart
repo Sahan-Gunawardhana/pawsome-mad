@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pawsome_v2/features/shop/screens/home/home.dart';
-import 'package:pawsome_v2/features/shop/screens/profile/widgets/profile.dart';
+import 'package:pawsome_v2/features/shop/screens/profile/profile.dart';
 import 'package:pawsome_v2/features/shop/screens/store/store.dart';
-import 'package:pawsome_v2/features/shop/screens/wishlist/widgets/wishlist.dart';
+import 'package:pawsome_v2/features/shop/screens/wishlist/wishlist.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
 
@@ -19,7 +19,7 @@ class NavigationMenu extends StatelessWidget {
       bottomNavigationBar: Obx(
         () => NavigationBarTheme(
           data: NavigationBarThemeData(
-            labelTextStyle: MaterialStateProperty.all(
+            labelTextStyle: WidgetStateProperty.all(
               const TextStyle(
                 color: Colors.white,
                 fontSize: 12

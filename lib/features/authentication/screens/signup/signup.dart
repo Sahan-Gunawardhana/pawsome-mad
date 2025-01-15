@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:pawsome_v2/features/authentication/screens/login/widgets/login_form.dart';
 import 'package:pawsome_v2/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:pawsome_v2/utils/constants/colors.dart';
 import 'package:pawsome_v2/utils/constants/text_strings.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
 

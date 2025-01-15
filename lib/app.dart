@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pawsome_v2/features/authentication/screens/login/login.dart';
 import 'package:pawsome_v2/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:pawsome_v2/features/authentication/screens/signup/signup.dart';
 import 'utils/theme/theme.dart';
 
 

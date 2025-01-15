@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pawsome_v2/utils/constants/colors.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
 
 class CircularIcon extends StatelessWidget {
@@ -28,7 +29,7 @@ class CircularIcon extends StatelessWidget {
           borderRadius: BorderRadius.circular(100),
           color: backgroundColor != null ? backgroundColor! : AppHelperMethods
               .isDarkMode(context)
-              ? Colors.black
+              ? AppColors.surfaceDark
               : Colors.white),
       child: IconButton(onPressed: onPressed, icon: Icon(icon, color: color, size: size)),
     );

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../products/product_cart/product_card_vertical.dart';
 
 class AppGridLayout extends StatelessWidget {
   const AppGridLayout({

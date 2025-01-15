@@ -21,7 +21,7 @@ class SectionHeading extends StatelessWidget {
       children: [
         Text(
           title,
-          style: Theme.of(context).textTheme.titleLarge!.copyWith(color: Colors.black),
+          style: Theme.of(context).textTheme.titleLarge,
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
         ),

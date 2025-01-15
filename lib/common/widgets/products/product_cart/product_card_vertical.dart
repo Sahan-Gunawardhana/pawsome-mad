@@ -43,7 +43,8 @@ class ProductCardVertical extends StatelessWidget {
                       child: CircularIcon(
                         icon: Icons.favorite_outline,
                         color: Colors.red,
-                      ))
+                      )),
+                  //one positioned is used for this dont be confused
                 ],
               ),
             ),
@@ -80,7 +81,7 @@ class ProductCardVertical extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left:8),
+                  padding: const EdgeInsets.only(left: 8),
                   child: ProductPriceText(price: "55.00"),
                 ),
                 Padding(
@@ -94,13 +95,11 @@ class ProductCardVertical extends StatelessWidget {
                         height: 32 * 1.2,
                         child: Center(
                             child: Icon(Icons.add,
-                                color:
-                                AppColors.onPrimaryContainerLight))),
+                                color: AppColors.onPrimaryContainerLight))),
                   ),
                 )
               ],
             )
-
           ],
         ),
       ),
