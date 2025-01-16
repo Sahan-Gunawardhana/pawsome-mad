@@ -3,7 +3,9 @@ import 'package:pawsome_v2/common/widgets/appbar/appbar.dart';
 import 'package:pawsome_v2/common/widgets/shapes/containers/primary_header.dart';
 import 'package:pawsome_v2/common/widgets/texts/section_heading.dart';
 import 'package:pawsome_v2/common/widgets/tiles/settings_tile.dart';
+import 'package:pawsome_v2/features/personalization/screens/profile/profile.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';
+import 'package:get/get.dart';
 
 import '../../../../common/widgets/tiles/profile_tile.dart';
 
@@ -31,7 +33,7 @@ class SettingsScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 8.0),
-                  child: ProfileTile(),
+                  child: ProfileTile(onPressed: () => Get.to(() => ProfileScreen())),
                 ),
                 const SizedBox(
                   height: 32,
