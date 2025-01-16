@@ -1,9 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pawsome_v2/features/personalization/screens/settings/settings.dart';
 import 'package:pawsome_v2/features/shop/screens/home/home.dart';
-import 'package:pawsome_v2/features/shop/screens/profile/profile.dart';
 import 'package:pawsome_v2/features/shop/screens/store/store.dart';
 import 'package:pawsome_v2/features/shop/screens/wishlist/wishlist.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';

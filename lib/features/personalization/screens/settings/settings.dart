@@ -48,11 +48,16 @@ class SettingsScreen extends StatelessWidget {
                     height: 16,
                   ),
                   SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},),
-                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},),
-                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},),
-                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},),
-                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},),
-                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},)
+                  SettingsTile(icon: Icons.shopping_cart_outlined, title: "My Cart", subTitle: "Add, remove products free from your cart", onTap: () {},),
+                  SettingsTile(icon: Icons.receipt_long, title: "My Orders", subTitle: "View your orders", onTap: () {},),
+                  SettingsTile(icon: Icons.credit_card, title: "Payment Details", subTitle: "Manage your payment details", onTap: () {},),
+                  SettingsTile(icon: Icons.notifications, title: "Notifications", subTitle: "Set order ", onTap: () {},),
+                  SettingsTile(icon: Icons.privacy_tip_outlined, title: "Account Privacy", subTitle: "Manage data usage and connected accounts", onTap: () {},),
+                  SizedBox(height: 16,),
+                  SizedBox(
+                    width: double.infinity,
+                    child: OutlinedButton(onPressed: () {}, child: Text('Logout')),
+                  )
                 ],
               ),
             )

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';
+import 'package:pawsome_v2/utils/helpers/helper_method.dart';
 
 class SettingsTile extends StatelessWidget {
   const SettingsTile(
@@ -17,11 +18,12 @@ class SettingsTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDarkMode = AppHelperMethods.isDarkMode(context);
     return ListTile(
       leading: Icon(
         icon,
         size: 28,
-        color: AppColors.onPrimaryLight,
+        color: isDarkMode? AppColors.onPrimaryLight : AppColors.onPrimaryDark,
       ),
       title: Text(
         title,
