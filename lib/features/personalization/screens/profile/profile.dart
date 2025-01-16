@@ -43,7 +43,7 @@ class ProfileScreen extends StatelessWidget {
               SizedBox(height: 16,),
               ProfileRow(title: "E-mail",value: "johndoe@mail.com", onPressed: () {},),
               ProfileRow(title: "Phone Number",value: "+92 77 933 6029", onPressed: () {},),
-              ProfileRow(title: "Male",value: "Male", onPressed: () {},),
+              ProfileRow(title: "Gender",value: "Male", onPressed: () {},),
               ProfileRow(title: "Date of Birth",value: "22 Nov, 2001", onPressed: () {},),
               Divider(),
               SizedBox(height: 16,),
