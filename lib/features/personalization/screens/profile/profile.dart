@@ -31,22 +31,18 @@ class ProfileScreen extends StatelessWidget {
                 ),
               ),
               //Body
-              SizedBox(height: 8,),
-              Divider(),
-              SizedBox(height: 16,),
+
               SectionHeading(title: "Profile Information", showActionButton: false,),
-              SizedBox(height: 16,),
+
               ProfileRow(title: "Name",value: "John Doe", onPressed: () {},),
               ProfileRow(title: "Username",value: "JohnDoe1122", onPressed: () {},),
-              SizedBox(height: 16,),
-              Divider(),
-              SizedBox(height: 16,),
+
               ProfileRow(title: "E-mail",value: "johndoe@mail.com", onPressed: () {},),
               ProfileRow(title: "Phone Number",value: "+92 77 933 6029", onPressed: () {},),
               ProfileRow(title: "Gender",value: "Male", onPressed: () {},),
               ProfileRow(title: "Date of Birth",value: "22 Nov, 2001", onPressed: () {},),
-              Divider(),
-              SizedBox(height: 16,),
+
+
               Center(
                 child: TextButton(onPressed: () {},  child: Text("Delete Account", style: TextStyle(color: AppColors.errorLight),)),
               )
