@@ -6,7 +6,6 @@ class AppHelperMethods{
   static Size screenSize(){
     return MediaQuery.of(Get.context!).size;
   }
-
   static double screenHeight(BuildContext context){
     return MediaQuery.of(Get.context!).size.height;
   }
