@@ -12,6 +12,8 @@ class WishlistScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool isPortrait =
+        MediaQuery.of(context).orientation == Orientation.portrait;
     return Scaffold(
       appBar: CustomAppBar(
         title: Text(
@@ -21,7 +23,9 @@ class WishlistScreen extends StatelessWidget {
         actions: [
           CircularIcon(
             icon: Icons.add,
-            color: AppHelperMethods.isDarkMode(context)? Colors.white:Colors.black,
+            color: AppHelperMethods.isDarkMode(context)
+                ? Colors.white
+                : Colors.black,
             onPressed: () => Get.to(const HomeScreen()),
           )
         ],
@@ -32,8 +36,10 @@ class WishlistScreen extends StatelessWidget {
           child: Column(
             children: [
               AppGridLayout(
-                  itemCount: 8,
-                  itemBuilder: (_, index) => const ProductCardVertical())
+                itemCount: 8,
+                itemBuilder: (_, index) => const ProductCardVertical(),
+                isPortrait: isPortrait,
+              )
             ],
           ),
         ),

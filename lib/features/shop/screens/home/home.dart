@@ -12,9 +12,10 @@ import '../../../../common/widgets/texts/section_heading.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
+    bool isPortrait = MediaQuery.of(context).orientation == Orientation.portrait;
     return Scaffold(
         body: SingleChildScrollView(
       child: Column(
@@ -69,7 +70,7 @@ class HomeScreen extends StatelessWidget {
                   height: 24,
                 ),
                 SectionHeading(title: "Popular Products", onPressed: () {},),
-                AppGridLayout(itemCount: 8, itemBuilder: (_, index) => const ProductCardVertical(),),
+                AppGridLayout(itemCount: 8, itemBuilder: (_, index) => const ProductCardVertical(), isPortrait: isPortrait,),
               ],
             ),
             //products

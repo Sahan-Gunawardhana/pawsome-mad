@@ -67,7 +67,7 @@ class StoreScreen extends StatelessWidget {
                   bottom: TabBar(
                       isScrollable: true,
                       indicatorColor: AppColors.onBackgroundLight,
-                      unselectedLabelColor: AppColors.onPrimaryLight,
+                      unselectedLabelColor: isDark? AppColors.onPrimaryLight : AppColors.onPrimaryDark,
                       labelColor: isDark
                           ? AppColors.onPrimaryContainerDark
                           : AppColors.onPrimaryContainerLight,

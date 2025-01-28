@@ -8,6 +8,7 @@ class AppCategoryTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    bool isPortrait = MediaQuery.of(context).orientation == Orientation.portrait;
     return ListView(
       physics: NeverScrollableScrollPhysics(),
       shrinkWrap: true,
@@ -17,7 +18,7 @@ class AppCategoryTab extends StatelessWidget {
           child: Column(
             children: [
               SectionHeading(title: "Best Choice fo Your Pets", onPressed: () {},),
-              AppGridLayout(itemCount: 6, itemBuilder: (_,index) => ProductCardVertical()),
+              AppGridLayout(itemCount: 6, itemBuilder: (_,index) => ProductCardVertical(), isPortrait: isPortrait,),
               SizedBox(height: 16,)
             ],
           ),

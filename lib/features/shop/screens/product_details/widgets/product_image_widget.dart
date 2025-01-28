@@ -29,18 +29,13 @@ class ProductImage extends StatelessWidget {
             SizedBox(
                 height: 400,
                 child: Padding(
-                  padding: EdgeInsets.all(48.0),
+                  padding: EdgeInsets.all(12.0),
                   child: Center(
                       child:
                       Image(image: AssetImage(AppImages.product2))),
                 )
             ),
-            CustomAppBar(
-              showBackArrow: true,
-              actions: [
-                CircularIcon(icon: Icons.favorite, color: Colors.red,)
-              ],
-            )
+
           ],
         ),
       ),
