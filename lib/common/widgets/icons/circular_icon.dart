@@ -24,6 +24,7 @@ class CircularIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isDark = AppHelperMethods.isDarkMode(context);
     return Container(
       width: width,
       height: height,

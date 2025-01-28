@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:pawsome_v2/common/widgets/images/rounded_image.dart';
 import 'package:pawsome_v2/common/widgets/products/product_cart/product_price_text.dart';
 import 'package:pawsome_v2/common/widgets/shapes/containers/circular_shape.dart';
 import 'package:pawsome_v2/common/widgets/texts/product_title.dart';
+import 'package:pawsome_v2/features/shop/screens/product_details/product_details.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';
 import 'package:pawsome_v2/utils/constants/image_strings.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
@@ -16,7 +19,7 @@ class ProductCardVertical extends StatelessWidget {
   Widget build(BuildContext context) {
     final isDarkMode = AppHelperMethods.isDarkMode(context);
     return GestureDetector(
-      onTap: () {},
+      onTap: () => Get.to(() => const ProductDetailsScreen()),
       child: Container(
         width: 180,
         padding: EdgeInsets.all(1),
@@ -82,7 +85,7 @@ class ProductCardVertical extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 8),
-                  child: ProductPriceText(price: "55.00"),
+                  child: ProductPriceText(price: "55"),
                 ),
                 Padding(
                   padding: const EdgeInsets.only(right: 8),
