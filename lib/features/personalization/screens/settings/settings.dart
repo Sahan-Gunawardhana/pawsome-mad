@@ -3,6 +3,7 @@ import 'package:pawsome_v2/common/widgets/appbar/appbar.dart';
 import 'package:pawsome_v2/common/widgets/shapes/containers/primary_header.dart';
 import 'package:pawsome_v2/common/widgets/texts/section_heading.dart';
 import 'package:pawsome_v2/common/widgets/tiles/settings_tile.dart';
+import 'package:pawsome_v2/features/personalization/screens/address/addresses.dart';
 import 'package:pawsome_v2/features/personalization/screens/profile/profile.dart';
 import 'package:pawsome_v2/utils/constants/colors.dart';
 import 'package:get/get.dart';
@@ -49,7 +50,7 @@ class SettingsScreen extends StatelessWidget {
                   SizedBox(
                     height: 16,
                   ),
-                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: () {},),
+                  SettingsTile(icon: Icons.home_outlined, title: "My Address", subTitle: "Set order delivery address", onTap: ()=>Get.to(() => Addresses())),
                   SettingsTile(icon: Icons.shopping_cart_outlined, title: "My Cart", subTitle: "Add, remove products free from your cart", onTap: () {},),
                   SettingsTile(icon: Icons.receipt_long, title: "My Orders", subTitle: "View your orders", onTap: () {},),
                   SettingsTile(icon: Icons.credit_card, title: "Payment Details", subTitle: "Manage your payment details", onTap: () {},),

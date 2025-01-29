@@ -19,7 +19,6 @@ class AppGridLayout extends StatelessWidget {
     return OrientationBuilder(
       builder: (context, orientation) {
         int crossAxisCount = isPortrait ? 2 : 3;
-        print('Orientation: $orientation');
         return GridView.builder(
             itemCount: itemCount,
             shrinkWrap: true,
