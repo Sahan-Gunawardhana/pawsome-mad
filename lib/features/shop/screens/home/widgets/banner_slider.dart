@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pawsome_v2/features/shop/models/home_controller.dart';
+import 'package:pawsome_v2/features/shop/controllers/home_controller.dart';
 
 import '../../../../../common/widgets/images/rounded_image.dart';
 import '../../../../../common/widgets/shapes/containers/circular_shape.dart';

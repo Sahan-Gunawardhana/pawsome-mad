@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pawsome_v2/common/widgets/success_screen/success_screen.dart';
 import 'package:pawsome_v2/features/authentication/screens/login/login.dart';
+import 'package:pawsome_v2/features/shop/screens/home/home.dart';
+import 'package:pawsome_v2/navigation_menu.dart';
 import 'package:pawsome_v2/utils/constants/image_strings.dart';
 import 'package:pawsome_v2/utils/constants/text_strings.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
@@ -63,10 +65,10 @@ class VerifyEmailScreen extends StatelessWidget {
                   child: ElevatedButton(
                       onPressed: () => Get.to(() => SuccessScreen(
                             //success screen and the parameters for the requirements
-                            imageTitle: AppImages.successScreen,
+                            imageTitle: AppImages.success1,
                             title: AppString.successOne,
                             subtitle: AppString.successTwo,
-                            onPressed: () => Get.to(() => const LoginScreen()),
+                            onPressed: () => Get.offAll(() => const NavigationMenu()),
                           )),
                       style: ElevatedButton.styleFrom(
                         elevation: 6, // Set desired elevation here

@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pawsome_v2/common/widgets/onboarding/onboarding_gradient.dart';
-import 'package:pawsome_v2/features/authentication/controllers/onboarding_controller.dart';
-import 'package:pawsome_v2/features/authentication/screens/signup/signup.dart';
+import 'package:pawsome_v2/features/authentication/controllers/onboarding/onboarding_controller.dart';
 import 'package:pawsome_v2/utils/constants/image_strings.dart';
 import 'package:pawsome_v2/utils/constants/text_strings.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
@@ -41,32 +40,16 @@ class OnBoardingScreen extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          Column(
-            children: [
-              ElevatedButton(
-                  onPressed: () => Get.off(() => SignupScreen()),
-                  child: Text(
-                    AppString.landingButtonText,
-                  )),
-              SizedBox(
-                height: 10,
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+          Column(children: [
+            ElevatedButton(
+                onPressed: () => OnBoardingController.instance.nextPage(),
                 child: Text(
-                  AppString.landingRedirectText,
-                  style: Theme.of(context).textTheme.bodySmall,
-                  textAlign: TextAlign.center,
-                ),
-              ),
-              OutlinedButton(
-                  onPressed: () {
-                    OnBoardingController.instance.nextPage();
-                  },
-                  child: Text(AppString.loginButtonText,
-                      style: Theme.of(context).textTheme.labelLarge)),
-            ],
-          )
+                  AppString.landingButtonText,
+                )),
+            SizedBox(
+              height: 10,
+            ),
+          ])
         ],
       ),
     ));

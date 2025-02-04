@@ -3,6 +3,7 @@ import 'package:pawsome_v2/common/widgets/appbar/appbar.dart';
 import 'package:pawsome_v2/common/widgets/shapes/containers/primary_header.dart';
 import 'package:pawsome_v2/common/widgets/texts/section_heading.dart';
 import 'package:pawsome_v2/common/widgets/tiles/settings_tile.dart';
+import 'package:pawsome_v2/data/repositories/authentication/authentication_repository.dart';
 import 'package:pawsome_v2/features/personalization/screens/address/addresses.dart';
 import 'package:pawsome_v2/features/personalization/screens/profile/profile.dart';
 import 'package:pawsome_v2/features/shop/screens/order/order.dart';
@@ -17,6 +18,7 @@ class SettingsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = Get.put(AuthenticationRepository());
     return Scaffold(
       body: SingleChildScrollView(
         child: Column(
@@ -61,7 +63,7 @@ class SettingsScreen extends StatelessWidget {
                   SizedBox(height: 16,),
                   SizedBox(
                     width: double.infinity,
-                    child: OutlinedButton(onPressed: () {}, child: Text('Logout')),
+                    child: OutlinedButton(onPressed: () {} , child: Text('Logout')),
                   )
                 ],
               ),

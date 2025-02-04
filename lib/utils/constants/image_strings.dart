@@ -33,7 +33,10 @@ class AppImages {
 
   static const String user = "assets/images/profile.jpeg";
 
-  static const String success1 = "assets/images/Animation - 1738644975586.json";
-  // static const String success2 = "assets/images/Animation - 1738644975587.json";
+  static const String success1 = "assets/images/Animation - 1738665764566.json";
+  static const String success2 = "assets/images/Animation - 1738666380889.json";
+  static const String success3 = "assets/images/Animation - 1738666121531.json";
+  static const String loader1 = "assets/images/Animation - 1738671730893";
+
   // static const String success3 = "assets/images/Animation - 1738644975588.json";
 }

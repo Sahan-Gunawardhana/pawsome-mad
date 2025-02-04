@@ -137,6 +137,9 @@ class AppString {
 
   static const String homeAppbarTitle = "Great day to treat your pet!";
   static const String homeAppbarSubTitle = "Jane Smith";
+
+
+  static const String registerUrl = "http://127.0.0.1:8000/api/register";
 }
 
 

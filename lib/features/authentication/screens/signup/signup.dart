@@ -23,13 +23,14 @@ class SignupScreen extends StatelessWidget {
                   Text(AppString.signupTitle, style: Theme.of(context).textTheme.headlineMedium,),
                   SizedBox(height: 24,),
                   //sign up form
-                  signupForm(isDarkMode: isDarkMode),
+                  SignupForm(isDarkMode: isDarkMode),
                   SizedBox(height: 32,),
                   //Divider
                   CustomDivider(isDarkMode: isDarkMode, dividerText: dividerText,),
                   SizedBox(height: 16,),
                   //sign up with google and facebook
                   SocialLogin()
+
                 ],
               )
           )
