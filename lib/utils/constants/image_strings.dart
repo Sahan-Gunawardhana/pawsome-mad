@@ -32,4 +32,8 @@ class AppImages {
   static const String product6 = "assets/images/product6.jpg";
 
   static const String user = "assets/images/profile.jpeg";
+
+  static const String success1 = "assets/images/Animation - 1738644975586.json";
+  // static const String success2 = "assets/images/Animation - 1738644975587.json";
+  // static const String success3 = "assets/images/Animation - 1738644975588.json";
 }
