@@ -35,7 +35,7 @@ class AppString {
   static const String resend = "Resend E-mail";
   static const String successOne = "Account Created Successfully!";
   static const String successTwo = "Your account has been successfully created! Verify your email to start exploring exclusive deals and services for your pet. Let the adventures begin!";
-  // static const String signUpT
+  // static const String signUp
   static const String signupTele = "Telephone";
   static const String signupDob = "Date of birth";
   static const String signupButtonText = "Create Account";

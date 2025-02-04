@@ -13,6 +13,7 @@ class OrderScreen extends StatelessWidget {
           "My Orders",
           style: Theme.of(context).textTheme.titleLarge,
         ),
+        showBackArrow: true,
       ),
       body: Padding(
         padding: EdgeInsets.all(24),

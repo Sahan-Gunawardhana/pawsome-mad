@@ -5,6 +5,7 @@ import 'package:pawsome_v2/common/widgets/icons/circular_icon.dart';
 import 'package:pawsome_v2/common/widgets/layouts/grid_layout.dart';
 import 'package:pawsome_v2/common/widgets/products/product_cart/product_card_vertical.dart';
 import 'package:pawsome_v2/features/shop/screens/home/home.dart';
+import 'package:pawsome_v2/navigation_menu.dart';
 import 'package:pawsome_v2/utils/helpers/helper_method.dart';
 
 class WishlistScreen extends StatelessWidget {
@@ -26,7 +27,7 @@ class WishlistScreen extends StatelessWidget {
             color: AppHelperMethods.isDarkMode(context)
                 ? Colors.white
                 : Colors.black,
-            onPressed: () => Get.to(const HomeScreen()),
+            onPressed: () => Get.offAll(NavigationMenu()),
           )
         ],
       ),

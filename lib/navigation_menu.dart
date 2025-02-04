@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pawsome_v2/features/personalization/screens/settings/settings.dart';
+import 'package:pawsome_v2/features/shop/screens/appointments/appointments.dart';
 import 'package:pawsome_v2/features/shop/screens/home/home.dart';
 import 'package:pawsome_v2/features/shop/screens/store/store.dart';
 import 'package:pawsome_v2/features/shop/screens/wishlist/wishlist.dart';
@@ -35,7 +36,7 @@ class NavigationMenu extends StatelessWidget {
             destinations: const [
                NavigationDestination(icon: Icon(Icons.home_outlined, color: Colors.white,),label: "Home",),
                NavigationDestination(icon: Icon(Icons.store_outlined, color: Colors.white), label: "Store"),
-               NavigationDestination(icon: Icon(Icons.favorite_outline, color: Colors.white), label: "Wishlist"),
+               NavigationDestination(icon: Icon(Icons.calendar_month_rounded, color: Colors.white), label: "Appointments"),
                NavigationDestination(icon: Icon(Icons.account_circle_outlined, color: Colors.white), label: "Profile",),
           ]),
         ),
@@ -50,7 +51,7 @@ class NavController extends GetxController {
   final screens = [
     const HomeScreen(),
     const StoreScreen(),
-    const WishlistScreen(),
+    const AppointmentsScreen(),
     const SettingsScreen()
   ];
 }

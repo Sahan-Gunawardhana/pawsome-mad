@@ -1,5 +1,8 @@
 
 import 'package:flutter/cupertino.dart';
+import 'package:get/get.dart';
+import 'package:pawsome_v2/features/shop/screens/sub_categories/sub_categories.dart';
+
 
 import '../../../../../common/widgets/image_text/image_text_vertical.dart';
 import '../../../../../utils/constants/image_strings.dart';
@@ -21,7 +24,7 @@ class AppHomeCategories extends StatelessWidget {
           return VerticalImageText(
             image: AppImages.cat1,
             title: "Food",
-            onTap: () {},
+            onTap: () => Get.to(( ) => SubCategoriesScreen()),
           );
         },
       ),

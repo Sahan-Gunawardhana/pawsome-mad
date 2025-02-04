@@ -17,7 +17,7 @@ class AppCategoryTab extends StatelessWidget {
           padding: EdgeInsets.only(left: 24, right: 16, top: 16, bottom: 16),
           child: Column(
             children: [
-              SectionHeading(title: "Best Choice fo Your Pets", onPressed: () {},),
+              SectionHeading(title: "Best Choice fo Your Pets", onPressed: null,),
               AppGridLayout(itemCount: 6, itemBuilder: (_,index) => ProductCardVertical(), isPortrait: isPortrait,),
               SizedBox(height: 16,)
             ],
